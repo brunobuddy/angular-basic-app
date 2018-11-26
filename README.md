@@ -1,6 +1,6 @@
 # Angular Basic App
 
-This project is related to this [YouTube Angular Basic Tutorial (French)](https://github.com/brunobuddy/angular-basic-app). Please click on "Clone or Download" and "Download ZIP" to get quickly the source code of this project.
+This project is related to this [YouTube Angular Basic Tutorial (French)](https://www.youtube.com/watch?v=cNAchoTqzDg&t=787s). Please click on "Clone or Download" and "Download ZIP" to get quickly the source code of this project.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
