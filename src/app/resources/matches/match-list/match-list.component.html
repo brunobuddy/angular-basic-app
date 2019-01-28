@@ -1,3 +1,22 @@
-<p>
-  match-list works!
-</p>
+<h1 class="title is-1">Match list</h1>
+<br /><br /><br /><br />
+<div class="container">
+  <div
+    class="columns"
+    *ngFor="let match of matches"
+    [routerLink]="['matches', match.id]"
+  >
+    <div class="column is-4">
+      <img [src]="match.home_team_image" alt="" /> {{ match.home_team }}
+    </div>
+    <div class="column is-1">
+      <strong>{{ match.home_team_goals }}</strong>
+    </div>
+    <div class="column is-1">
+      <strong>{{ match.away_team_goals }}</strong>
+    </div>
+    <div class="column is-4">
+      <img [src]="match.away_team_image" alt="" />{{ match.away_team }}
+    </div>
+  </div>
+</div>

@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component'
 import { MatchListComponent } from './resources/matches/match-list/match-list.component'
 import { MatchDetailComponent } from './resources/matches/match-detail/match-detail.component'
 import { appRoutes } from './app.routes'
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { appRoutes } from './app.routes'
     MatchListComponent,
     MatchDetailComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
+  imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
 })
